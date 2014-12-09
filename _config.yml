@@ -31,6 +31,7 @@ defaults:
     type: "posts"
   values:
     layout: "post"
+    category: "news"
     
 prose:
   siteurl: 'http://happycollision.github.io/carolroseactress.com/'
