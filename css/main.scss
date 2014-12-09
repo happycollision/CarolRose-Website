@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Variables
+$base-font-family: "museo-sans", sans-serif;
+$base-font-size:   16px;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #222;
+$background-color: #eee;
+
+$trans-grey:       #bbb;
+$border-radius:    3px;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "libraries",
+        "media-queries",
+        "base",
+        "helpers",
+        "layout"
+;

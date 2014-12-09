@@ -1,0 +1,128 @@
+html
+  box-sizing: border-box
+
+*, *:before, *:after 
+  box-sizing: inherit
+
+body
+  padding: 0
+
+  +breakpoint($large)
+    font-size: 1.2em
+
+.page-content
+  max-width: 650px
+  margin: auto
+
+  +breakpoint($large)
+    max-width: 900px
+
+// Header
+header.site-header
+  a
+    text-decoration: none
+  
+  .site-title
+    position: absolute
+    bottom: 0
+    right: 0
+    display: block
+    color: #fff
+    text-align: center
+    padding: 0.5em 0
+    font-size: $base-font-size
+    font-size: 2.6em
+    font-weight: 100
+    line-height: 1em
+    font-family: "Helvetica Neue", Helvetica, sans-serif
+    
+    +breakpoint($medium)
+      font-size: 4em
+    
+    +breakpoint($large)
+      font-size: 5em
+
+  #banner-image
+    position: relative
+    
+    img
+      display: block
+      margin: auto
+// Main Nav
+
+.js .site-nav ul
+  display: none
+  +breakpoint($medium)
+    display: block
+
+.site-nav
+  font-size: $base-font-size
+  text-align: center
+  margin-bottom: $spacing-unit
+  
+  ul
+    +container()
+    padding: 0
+    margin: 0
+    list-style: none
+
+  label, li
+    font-size: 1.3em
+    margin-bottom: gutter()
+    display: block
+
+  label, li a
+    display: block
+    padding: 8px
+    background-color: $trans-grey
+
+    &, &:link, &:hover, &:visited
+      color: $text-color
+
+
+    &:hover
+      background-color: darken($trans-grey, 20)
+
+  +breakpoint($medium)
+    label
+      display: none
+    li
+      +span(2)
+    li:nth-of-type(2n)
+      +span(2 at 3)
+
+  +breakpoint($large)
+    li
+      display: inline !important
+      float: none !important
+      margin: auto !important
+
+      a
+        width: 10em !important
+        display: inline-block !important
+
+// Articles
+
+article
+  margin: $spacing-unit auto
+
+  & > h2
+    text-align: center
+
+.post-link
+  text-decoration: none
+  color: $text-color
+
+  &.outgoing
+    text-decoration: underline
+
+
+// Footer
+
+.site-footer
+  background-color: darken($trans-grey, 0)
+  margin-top: $spacing-unit *2
+  margin-bottom: 0
+  padding: $spacing-unit 0
+
+  +fw-bars
