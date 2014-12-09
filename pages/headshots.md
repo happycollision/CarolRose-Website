@@ -1,7 +1,9 @@
 ---
 layout: page
-title: References
-permalink: /references/
+title: Headshots
+permalink: /headshots/
+main_nav: true
+sort: 2
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
