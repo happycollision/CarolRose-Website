@@ -12,6 +12,7 @@
     "breakpoint-sass": "~2.5.0",
     "susy": "~2.1.3",
     "jquery": "~1.11",
-    "compass-mixin": "~1.0.2"
+    "compass-mixin": "~1.0.2",
+    "picturefill": "~2.2.0"
   }
 }
