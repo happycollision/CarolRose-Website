@@ -26,7 +26,9 @@ main_nav: true
 ### Training
 
 __Illinois Wesleyan University: BFA Musical Theatre__ (Tom Quinn, Tom Ossowski, Sandy DeAthos, Jean Kerr)  
-__Voice:__ Voice Instructor: *Roberta Duchak*
+__Voice__: Voice Instructor: *Roberta Duchak*  
+__Film & TV__: Act One Studios: Commercial Technique -- Joanne Sylvestrak  
+__Acting__: Black Box Actin Studio: B1- Level 1- Jessie Fisher B2- Level 2- Amrita Dhaliwal 
 
 ### Special Skills
 

@@ -3,36 +3,122 @@ credits:
 - grouping: "Theater - Selected"
   productions:
   -
-    title: "The 25th Annual Putnam County Spelling Bee"
-    role: Rona Lisa Peretti
-    company: Rocky Mountain Rep
-    choreographer: Matthew Raftery
+    title: No Way to Treat A Lady
+    role: Flora and Others
+    company: FoxValley Repertory
+    director: John Gawlik
+  -
+    title: "Sisters of Swing: The Story of the Andrews Sisters"
+    role: Laverne
+    company: Fox Valley Repertory Theatre
+    director: John Gawlik
+  -
+    title: Why Do Fools Fall in Love?
+    role: Millie
+    company: Fox Valley Repertory Theatre
+    director: Kyle Donahue 
   -
     title: The Original Grease*
     role: Marty (dance capt.)
-    company: Americal Theatre Company
-    choreographer: Jim Corti
+    company: American Theatre Company
+    choreographer: Jim Corti 
   -
-    title: "The one about the three chicks"
-    role: One of the chicks
-    company: Fox Valley Rep
-    director: Another Guy
+    title: Tomorrow Morning
+    role: Catharine
+    company: Towle Theatre
+    director: Jeff Casey 
+  -
+    title: The Who’s Tommy
+    role: Sally’s mother/ us Mrs. Walker
+    company: Circle Theatre
+    director: Jeffery Cass 
+  -
+    title: The 25th Annual Putnam County Spelling Bee
+    role: Rona Lisa Peretti
+    company: Rocky Mountain Repertory
+    choreographer: Matthew Raftery 
+  -
+    title: The Amish Project (solo)
+    role: Understudy
+    company: American Theatre Company
+    director: PJ Paparelli 
+  -
+    title: Urinetown
+    role: Hope Cladwell
+    company: Rocky Mountain Repertory
+    director: Michael Querio 
+  -
+    title: Children of Eden
+    role: Yonah (dance capt.)
+    company: Weathervane Playhouse
+    director: Matthew Trombetta 
+  -
+    title: Princess and the Pea
+    role: Princess Penelope
+    company: Chicago Kids Company
+    director: Paige Coffman 
+  -
+    title: Carousel
+    role: Arminy/ us Carrie (performed)
+    company: Rocky Mountain Repertory
+    choreographer: Matthew Raftery 
+  -
+    title: Thoroughly Modern Millie
+    role: Gloria/ us Millie*
+    company: Rocky Mountain Repertory
+    director: Jeff Duke 
+  -
+    title: Once Upon a Mattress
+    role: Lady Larkin
+    company: Weathervane Playhouse
+    director: Matthew Trombetta 
+  -
+    title: Fiddler on the Roof
+    role: Tzeitel
+    company: Weathervane Playhouse
+    director: Matthew Trombetta 
+  -
+    title: Evita
+    role: Ensemble
+    company: The St. Louis MUNY
+    director: Larry Fuller 
+  -
+    title: The Comedy of Errors
+    role: Adriana
+    company: St. Louis Shakespeare
+    director: Donna Northcott 
+
+
+
 
 - grouping: "Commercial"
   productions:
   -
-    title: Skating in the Sky
+    title: "Skating in the Sky: John Hancock Observatory"
     role: Skater on a date
     company: Graffiti Media Ltd.
     director: Vincent Cook
 
+
+
+
 - grouping: Other Credits
   productions:
+  -
+    title: Independence of the Seas
+    role: Featured Singer
+    company: Royal Caribbean Cruise Lines
+    director: Taylor Roberts
   -
     title: Sounds of Broadway
     role: Swing (dance capt.)
     company: "Six Flags, St. Louis"
     leader: dir/chor. Sarah Fazio
 
+
+
+
 footnotes:
   - "* Jeff Award Winner: Best Production-Musical (mid size)"
+
+  
