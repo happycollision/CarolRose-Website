@@ -1,0 +1,38 @@
+credits:
+
+- grouping: "Theater - Selected"
+  productions:
+  -
+    title: "The 25th Annual Putnam County Spelling Bee"
+    role: Rona Lisa Peretti
+    company: Rocky Mountain Rep
+    choreographer: Matthew Raftery
+  -
+    title: The Original Grease*
+    role: Marty (dance capt.)
+    company: Americal Theatre Company
+    choreographer: Jim Corti
+  -
+    title: "The one about the three chicks"
+    role: One of the chicks
+    company: Fox Valley Rep
+    director: Another Guy
+
+- grouping: "Commercial"
+  productions:
+  -
+    title: Skating in the Sky
+    role: Skater on a date
+    company: Graffiti Media Ltd.
+    director: Vincent Cook
+
+- grouping: Other Credits
+  productions:
+  -
+    title: Sounds of Broadway
+    role: Swing (dance capt.)
+    company: "Six Flags, St. Louis"
+    leader: dir/chor. Sarah Fazio
+
+footnotes:
+  - "* Jeff Award Winner: Best Production-Musical (mid size)"

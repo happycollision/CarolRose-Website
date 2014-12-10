@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div class="resume">
+  <header>
+    <h1>Carol Rose</h1>
+    <h2>EMC</h2>
+
+    <a class="contact" href="mailto:{{ site.email }}">{{ site.email }}</a>
+
+    <div class="stats">
+      <div class="stat">
+        <span class="label">Hair</span>
+        <span class="value">Brown</span>
+      </div>
+      <div class="stat">
+        <span class="label">Eyes</span>
+        <span class="value">Brown</span>
+      </div>
+      <div class="stat">
+        <span class="label">Height</span>
+        <span class="value">5'6''</span>
+      </div>
+      <div class="stat">
+        <span class="label">Vocal Type</span>
+        <span class="value">High Pop Belt, Mezzo Soprano, Mix</span>
+      </div>
+    </div>
+  </header>
+  
+  {% for creditsGroup in site.data.resume.credits %}
+    <section class="credits {{ creditsGroup.grouping | slugify }}">
+      <h3 class="section-title">{{ creditsGroup.grouping }}</h3>
+      {% for production in creditsGroup.productions %}<!-- collapsing whitespace
+        --><div class="production">
+          {% if production.director %}
+            {% capture leader %}dir. {{production.director}}{% endcapture %}
+          
+          {% elsif production.choreographer %}
+            {% capture leader %}chor. {{production.choreographer}}{% endcapture %}
+          
+          {% elsif production.producer %}
+            {% capture leader %}prod. {{production.producer}}{% endcapture %}
+          
+          {% elsif production.leader %}
+            {% assign leader=production.leader %}
+          
+          {% else %}
+            {% assign leader=false %}
+          
+          {% endif %}
+          
+          <span class="title">{{ production.title }}</span>
+          <span class="role">{{ production.role }}</span>
+          <span class="company">{{ production.company }}</span>
+          {% if leader %}
+            <span class="leader">{{ leader }}</span>
+          {% endif %}
+        
+        </div><!-- collapsing whitespace
+      -->{% endfor %}
+    </section>
+  {% endfor %}
+
+  <section class="training-skills">
+
+  {{ content }}
+
+  </section>
+
+  <footer>
+    
+    {% for footnote in site.data.resume.footnotes %}
+      <div class="footnote">{{footnote}}</div>
+    {% endfor %}
+
+  </footer>
+
+</div>

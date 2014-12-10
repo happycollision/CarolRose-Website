@@ -1,12 +1,34 @@
 ---
-layout: page
+layout: resume
 title: Resum&eacute;
 permalink: /resume/
 main_nav: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+{% comment %}
+
+
+    Carol,
+    Below you can edit the bottom section of your resumé.
+    If you want to edit your credits, you'll find that
+    inside the `_data` folder.
+
+
+{% endcomment %}
+
+  
+
+
+
+
+### Training
+
+__Illinois Wesleyan University: BFA Musical Theatre__ (Tom Quinn, Tom Ossowski, Sandy DeAthos, Jean Kerr)  
+__Voice:__ Voice Instructor: *Roberta Duchak*
+
+### Special Skills
+
+Sight reading, Lateral lisp, Advanced stage make-up, Character voices/Impressions  
+(Gus Gus from Disney's Cinderella, Britany Spears, Homestar Runner)

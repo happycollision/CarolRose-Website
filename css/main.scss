@@ -11,10 +11,11 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #222;
-$background-color: #eee;
+$background-color: #fff;
 
 $trans-grey:       #bbb;
 $border-radius:    3px;
+$body-padding:     8px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -22,5 +23,6 @@ $border-radius:    3px;
         "media-queries",
         "base",
         "helpers",
-        "layout"
+        "layout",
+        "resume"
 ;
