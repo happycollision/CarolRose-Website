@@ -10,13 +10,19 @@ body
   +breakpoint($large)
     font-size: 1.2em
 
-.page-content
-  padding: 0 $body-padding
+%content-width
+  padding-left: $body-padding
+  padding-right: $body-padding
   max-width: 650px
-  margin: auto
+  margin-left: auto
+  margin-right: auto
 
   +breakpoint($large)
     max-width: 900px
+
+
+.page-content
+  @extend %content-width
 
 // Header
 header.site-header
@@ -123,9 +129,11 @@ article
 // Footer
 
 .site-footer
+  @extend %content-width
   background-color: darken($trans-grey, 0)
   margin-top: $spacing-unit *2
   margin-bottom: 0
-  padding: $spacing-unit 0
+  padding-top: $spacing-unit 
+  padding-bottom: $spacing-unit 
 
   +fw-bars
