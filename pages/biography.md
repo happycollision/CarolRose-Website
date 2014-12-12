@@ -5,8 +5,8 @@ permalink: /bio/
 main_nav: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is where Carol's bio will go. For now, enjoy this picture I found on Flickr. It reminds me of Ygritte.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+[respondr 14774811932]
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Good shot, right?
