@@ -64,7 +64,7 @@
 
 credits:
 
-- grouping: "Theater - Selected"
+- grouping: Theater - Selected
   productions:
   -
     title: No Way to Treat A Lady
@@ -92,8 +92,8 @@ credits:
     company: Towle Theatre
     director: Jeff Casey 
   -
-    title: The Who’s Tommy
-    role: Sally’s mother/ us Mrs. Walker
+    title: The Who's Tommy
+    role: Sally's mother/ us Mrs. Walker
     company: Circle Theatre
     director: Jeffery Cass 
   -
@@ -155,7 +155,7 @@ credits:
 
 
 
-- grouping: "Commercial"
+- grouping: Commercial
   productions:
   -
     title: "Skating in the Sky: John Hancock Observatory"
