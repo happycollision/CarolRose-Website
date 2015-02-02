@@ -29,6 +29,7 @@ body
 
 .page-content
   @extend %content-width
+  +clearfix
 
 // Header
 header.site-header
@@ -140,6 +141,16 @@ article
   margin-top: $spacing-unit *2
   margin-bottom: 0
   padding-top: $spacing-unit 
-  padding-bottom: $spacing-unit 
+  padding-bottom: 0 
 
   +fw-bars
+
+  .page-link
+    margin-right: 1em
+
+  .credit
+    font-size: 0.80em
+    margin-top: 1em
+    margin-bottom: 0
+    padding-bottom: ($spacing-unit / 4)
+    text-align: right
