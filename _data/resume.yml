@@ -1,3 +1,67 @@
+# # # # # # # # # # # #
+#
+# Rules:
+#
+# # # # # # # # # # # #
+#
+#
+#
+# 1. Indentation matters big time in this file. Don't stray from the visual
+# style I have set.
+#
+# 2. Indentation is NOT created with the `tab` key. Use 2 spaces for each level
+# of indentation.
+#
+# 3. Hyphens indicate the start of a new set of values that are considered to be
+#    one item. They must be placed inside the indented space as though they are
+#    part of the indentation. So instead of indenting with `{ space }{ space }`,
+#    you'd indent with `{ hypen }{ space }`. They can be optionally placed on their
+#    own lines, but the indentation must still be the same. You'll see examples of
+#    both below. Keeping them inline or giving them thier own line is a matter of
+#    visual preference.
+#
+# 4. Use blank lines all you like for visual preference. But only between
+#    values. Values cannot contain a return to a new line. If your value is really
+#    long and automatically wraps to a new line without you hitting the return key,
+#    that's fine.
+#
+# 5. Any values you enter containing a colon (:), pound sign (#) or comma (,)
+#    must be completely wrapped in quotation marks ("value"). You can actually wrap
+#    any value in quotation marks if you like.
+#
+#    Example: "Sisters of Swing: The Story of the Andrews Sisters"
+#
+#
+#
+# # # # # # # # # # # #
+#
+#    Actually using quotations marks that you want to be visible to visitors
+#    gets tricky. I'd say avoid it if you can, but if you cannot... here are the
+#    rest of the rules:
+#
+# # # # # # # # # # # #
+#
+#
+#
+# 6. If the value doesn't require being wrapped in quotation marks (because of
+#    the fifth rule) AND the value doesn't START with a quotation mark, just use
+#    them freely.
+#
+#        Example: "Sisters of Swing: The Story of the Andrews Sisters"
+#        Visitors will see: 
+#           Sisters of Swing: The Story of the Andrews Sisters
+#
+# 7. If you need to start with a quotation mark or you already needed to wrap
+#    your value in quotation marks (because of the fifth rule) you must put a
+#    backslash (\) directly before each inner quoation mark.
+#
+#        Example: "Sisters of Swing: The \"Story\" of the Andrews Sisters"
+#        Visitors will see: 
+#           Sisters of Swing: The "Story" of the Andrews Sisters
+
+
+
+
 credits:
 
 - grouping: "Theater - Selected"
