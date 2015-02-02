@@ -24,6 +24,7 @@
     var createImgElementsFromFlickrResponse = function(response){
       if (response.stat !== 'ok'){
         // Handle the error
+        // TODO: display information to user to let them know there was a problem with Flickr. Or that there was a problem with their input.
         return 'no images';
       }
       
@@ -75,19 +76,19 @@
       $.each(flickrData, function(i,promise){
         promise.done( function(response){
           var element = createImgElementsFromFlickrResponse(response);
-          var $thisElement = $respondrSpans.filter("[data-respondr-id='" + i + "']")
+          var $thisElement = $respondrSpans.filter("[data-respondr-id='" + i + "']");
 
           $thisElement.html('').append(element);
 
           if ($.respondr.options.usePicturefill) {
-            if (typeof window.picturefill === 'function') { picturefill(); }
+            if (typeof window.picturefill === 'function') { window.picturefill(); }
             else {
-              console.log("Tried to call picturefill(), but it does not exist. Trying again in 2 seconds.");
+              window.console.log("Tried to call picturefill(), but it does not exist. Trying again in 2 seconds.");
               var tryPicturefillAgain = function(){
-                if (typeof window.picturefill === 'function') { picturefill(); }
-                else {console.log("Still no picturefill().");}
+                if (typeof window.picturefill === 'function') { window.picturefill(); }
+                else {window.console.log("Still no picturefill(). Giving up.");}
               };
-              setTimeout(function() {tryPicturefillAgain()}, 2000);
+              setTimeout(function() {tryPicturefillAgain();}, 2000);
             }
           }
 
@@ -104,8 +105,7 @@
     var format = 'json';
 
     if (options === null || typeof options === "undefined") {
-      // TODO: Throw an error
-      return;
+      throw("$.respondr() expects an argument. None given.");
     }
 
     if (typeof options === "object") {
@@ -130,8 +130,7 @@
       });
     
     } else {
-      // TODO: Throw an error
-      return;
+      throw("$.respondr() was given an invalid argument.");
     }
 
 
