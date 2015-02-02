@@ -1,0 +1,93 @@
+---
+layout: page
+title: Video/Audio
+permalink: /media/
+main_nav: true
+sort: 0
+---
+
+{% comment %}
+
+
+Carol,
+You can edit the contents of this page in the _data folder in the media.yml file.
+
+
+{% endcomment %}
+
+
+
+
+
+
+
+<div class="videos">
+<h2>Videos</h2>
+  
+  {% for video in site.data.media.videos %}
+    
+    <div class="video">
+      
+      {% if video.title %}
+        {% assign title = video.title %}
+      {% else %}
+        {% assign title = "&nbsp;" %}
+      {% endif %}
+      <h3> {{ title }} </h3>
+
+      {% if video.youTube_ID %}
+        <iframe width="640" height="480" src="https://www.youtube.com/embed/{{ video.youTube_ID }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      {% elsif video.vimeo_ID %}
+        <iframe src="//player.vimeo.com/video/{{ video.vimeo_ID }}?color=c9ff23&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      {% endif %}
+
+      {% if video.caption %}
+        <p> {{ video.caption }} </p>
+      {% endif %}
+
+    </div>
+
+  {% endfor %}
+
+</div>
+
+
+
+
+
+
+<div class="audio-tracks">
+<h2>Audio</h2>
+
+
+  {% for audio in site.data.media.audio %}
+    
+    <div class="audio">
+
+      {% if audio.title %}
+        {% assign title = audio.title %}
+      {% else %}
+        {% assign title = "&nbsp;" %}
+      {% endif %}
+      <h3> {{ title }} </h3>
+
+      
+      {% if audio.visual %}
+        {% assign height = 450 %}
+      {% else %}
+        {% assign height = 116 %}
+      {% endif %}
+
+      {% if audio.soundcloud_ID %}
+        <iframe width="100%" height="{{ height }}" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ audio.soundcloud_ID }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual={{ audio.visual | default: "false"}}"></iframe>
+      {% endif %}
+
+      {% if audio.caption %}
+        <p> {{ audio.caption }} </p>
+      {% endif %}
+
+    </div>
+
+  {% endfor %}
+
+</div>

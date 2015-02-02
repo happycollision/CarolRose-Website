@@ -1,0 +1,28 @@
+videos:
+  -
+    title: Charlie Bit Me!
+    youTube_ID: _OBlgSz8sSM
+    vimeo_ID:
+    caption: And that really hurt!
+  -
+    title: 
+    youTube_ID: CMNry4PE93Y
+    vimeo_ID:
+    caption: "I didn't include a title with this one, just because."
+  -
+    title: Crazy Paper Video
+    youTube_ID: 
+    vimeo_ID: 58022280
+    caption: 
+
+audio:
+  -
+    title: The Sun My Heart - "Kansas City Star"
+    soundcloud_ID: 79954049
+    visual: true
+    caption: This is a girl I knew in high school and some dude I don't know.
+  - 
+    title: Dan Denton - "Bklyn To KC"
+    soundcloud_ID: 184064894
+    visual: 
+    caption: My bro.

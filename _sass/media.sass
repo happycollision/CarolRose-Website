@@ -1,0 +1,12 @@
+.audio-tracks, .videos
+  +clearfix
+
+  & > h2
+    text-align: center
+
++with-layout((gutters: 1/12, columns: 2, gutter-position: split))
+  .video
+    width: 100%
+
+    +breakpoint($large)
+      +span(1)
