@@ -13,8 +13,6 @@ $.respondr({
 
 $(document).ready(function(){
   
-  $('.page-content').respondr();  
-
   $('.page-content').fitVids();
 
 });
