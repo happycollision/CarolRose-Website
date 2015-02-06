@@ -19,6 +19,20 @@
 
     <script src="{{ "/js/foot.js" | prepend: site.baseurl }}"></script>
 
+    <script>
+      $(document).ready(function(){
+        
+        {% if page.title != "Headshots" %}
+          $('.page-content').respondr();
+        {% else %}
+          $('.page-content').respondr('(min-width: 1000px) 500px');
+        {% endif %}
+
+        $('.page-content').fitVids();
+
+      });
+    </script>
+
   </body>
 
 </html>
