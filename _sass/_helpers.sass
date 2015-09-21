@@ -15,3 +15,23 @@
     +bars-setup
     right: -9999px
       
+=alt-text-color
+  color: $alt-text-color
+  background-color: $alt-color
+  -webkit-font-smoothing: antialiased
+
+  // if applied directly to an <a>, this won't affect it.
+  // applied to an <a>'s acestor, and it will.
+  a, a:visited, a:link
+    color: lighten($alt-color,30)
+    text-decoration: none
+
+    &:hover
+      color: $alt-text-color
+      text-decoration: none
+
+
+=alt-text-color-hover
+  color: $alt-text-color
+  background-color: lighten($alt-color,10)
+

@@ -48,6 +48,14 @@ img {
 
 
 /**
+ * normal anchors
+ */
+
+a, a:visited, a:link {
+    color: $alt-color;
+}
+
+/**
  * Lists
  */
 ul, ol {
@@ -70,4 +78,5 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     clear: both;
     margin-top: $spacing-unit;
+    color: lighten($alt-color,20);
 }
