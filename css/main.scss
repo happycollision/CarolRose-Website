@@ -20,9 +20,9 @@ $body-padding:     8px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "libraries",
+        "helpers",
         "media-queries",
         "base",
-        "helpers",
         "layout",
         "resume",
         "media",
